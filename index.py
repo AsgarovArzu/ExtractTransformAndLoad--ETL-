@@ -86,7 +86,7 @@ log_progress("Transform phase Ended")
   
 # Log the beginning of the Loading process 
 log_progress("Load phase Started") 
-load_data(target_file,transformed_data) 
+load_data(target_file,transformed_data);
   
 # Log the completion of the Loading process 
 log_progress("Load phase Ended") 
